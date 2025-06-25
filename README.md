@@ -11,11 +11,10 @@ TaskFlow é um aplicativo web para gerenciamento de tarefas, pensado para ajudar
 
 - Login e cadastro de usuários
 - Adição, edição e exclusão de tarefas
-- Filtros por status (pendente/concluída) e por nome
+- Filtros por status (pendente/concluída)
 - Categorização de tarefas por tipo
 - Visualização clara do status e categoria de cada tarefa
 - Interface responsiva e moderna
-- Restrições de adição de tarefas para PO/SC
 
 ---
 
