@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Lista de Tarefas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="../img/TaskFlow.png" alt="TaskFlow Logo" class="logo">
+    </div>
+    <div class="tasks-container">
+        <header>
+            <h1>TaskFlow</h1>
+            <nav class="main-buttons">
+                <a href="add-task.html" class="main-btn">Adicionar Tarefa</a>
+                <a href="login.html" class="main-btn">Sair</a>
+            </nav>
+        </header>
+        <main>
+            <h2 class="task-list-title">Lista de Tarefas</h2>
+            <div class="filter-buttons">
+                <button class="main-btn filter-btn" data-status="">Todas</button>
+                <button class="main-btn filter-btn" data-status="pending">Pendentes</button>
+                <button class="main-btn filter-btn" data-status="completed">Concluídas</button>
+            </div>
+            <ul id="lista-tarefas"></ul>
+        </main>
+    </div>
+    <script src="../js/tasks.js"></script>
+    <script src="../js/filters.js"></script>
+</body>
+</html>
